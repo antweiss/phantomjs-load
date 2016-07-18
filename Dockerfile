@@ -36,4 +36,4 @@ COPY . /root/tests
 WORKDIR /root/tests
 RUN bundle
 
-# CMD ["bundle", "exec", "cucumber"]
+CMD ["bundle", "exec", "cucumber"]
